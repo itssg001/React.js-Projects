@@ -1,15 +1,15 @@
 import React from 'react';
-
+import './header.css';
 const Header = () => {
   return (
- <section className="h-wrapper">
-    <div className="h-container">
+ <section className=" h-wrapper">
+    <div className=" h-container flexCenter">
         <img src="./logo.png" alt="" />
-        <div className="h-meu">
-            <a href="">Residencies</a>
-            <a href="">Our Value</a>
-            <a href="">Contact Us</a>
-            <a href="">Get Started</a>
+        <div className=" h-menu">
+            <a href="#">Residencies</a>
+            <a href="#">Our Value</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Get Started</a>
             <button className="button">
             <a href="">Contact</a>
             </button>
