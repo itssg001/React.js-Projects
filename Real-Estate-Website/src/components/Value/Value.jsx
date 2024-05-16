@@ -41,7 +41,7 @@ const Value = () => {
                  {
                     data.map((item, i)=>{
                         return(
-                            <AccordionItem key={i} className={`accordion ${className}`} uuid={i} >
+                            <AccordionItem key={i} className={`accordionItem ${className}`} uuid={i} >
                                 <AccordionItemHeading>
                                 <AccordionItemState>
                                     
