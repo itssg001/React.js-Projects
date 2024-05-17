@@ -16,20 +16,64 @@ conact = () => {
             
             <div className="contactModes">
                 {/* first-row  */}
-                <div className="firstRow">
+                <div className="row">
                     <div className="mode">
-                        <div className="flexStart">
+                        <div className="flexStart part-1">
                             <div className="icon">
                                 <MdCall size={25}/>
                             </div>
                             <div className="detail">
-                                <span>Call</span>
+                                <span className='primaryText'>Call</span>
                                 <span> 012 123 123 12</span>
                                 
                             </div>
                         </div>
+                        <div className="button">Call Now</div>
                     </div>
-                    <div className="button">Call Now</div>
+                    <div className="mode">
+                        <div className="flexStart part-1">
+                            <div className="icon">
+                                <BsFillChatDotsFill size={25}/>
+                            </div>
+                            <div className="detail">
+                                <span className='primaryText'>Chat</span>
+                                <span> 012 123 123 12</span>
+                                
+                            </div>
+                        </div>
+                        <div className="button">Chat Now</div>
+                    </div>
+                    
+                </div>
+                {/* Second-Row  */}
+                <div className="row">
+                    <div className="mode">
+                        <div className="flexStart part-1">
+                            <div className="icon">
+                                <BsFillChatDotsFill size={25}/>
+                            </div>
+                            <div className="detail">
+                                <span className='primaryText'>Video Call</span>
+                                <span> 012 123 123 12</span>
+                                
+                            </div>
+                        </div>
+                        <div className="button">Vedio Call Now</div>
+                    </div>
+                    <div className="mode">
+                        <div className="flexStart part-1">
+                            <div className="icon">
+                                <HiChatBubbleBottomCenter size={25}/>
+                            </div>
+                            <div className="detail">
+                                <span className='primaryText'>Message</span>
+                                <span> 012 123 123 12</span>
+                                
+                            </div>
+                        </div>
+                        <div className="button">Message Now</div>
+                    </div>
+                    
                 </div>
             </div>
             
