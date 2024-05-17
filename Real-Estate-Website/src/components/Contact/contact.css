@@ -1,0 +1,10 @@
+.c-container{
+
+    .c-left{
+        display: flex;
+        flex-direction:column;
+        gap: 0.5rem;
+        align-items: start;
+        justify-content: center;
+    }
+}
