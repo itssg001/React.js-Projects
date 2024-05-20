@@ -14,7 +14,7 @@ import data from "../../utils/accordion"
 import { useState } from 'react';
 import './value.css'
 const Value = () => {
-    const [className, setClassName] = useState();
+    const [className,  setClassName] = useState();
   return (
     <section className="v-wraPPER">
         <div className="paddings v-container">
