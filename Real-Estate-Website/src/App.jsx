@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero'
 import Recidencies from './components/Residencies/Recidencies'
 import Value from './components/Value/Value'
 import Contact from './components/Contact/Contact'
+import GetStarted from './components/GetStarted/GetStarted'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Recidencies />
       <Value />
       <Contact/>
+      <GetStarted />
     </div>
   )
 }
