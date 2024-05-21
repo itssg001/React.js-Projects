@@ -7,3 +7,12 @@
 .c-container>img{
     width: 9rem;
 }
+
+@media (max-width:768px){
+   
+    .c-container{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 1rem       ;
+    }
+}

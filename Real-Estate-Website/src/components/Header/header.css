@@ -34,7 +34,7 @@
         right: 4rem;
         background: white;
         flex-direction: column;
-        z-index: 2;
+        z-index: 2  ;
         padding: 3rem;
         font-weight: 500;
         border-radius: 10px;

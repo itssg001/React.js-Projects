@@ -87,3 +87,29 @@
     height: 100%;
     width: 100%;
 }
+
+
+/* Responsive */
+
+@media (max-width:768px){
+   .hero-wrapper{
+    width: 100%;
+   }
+   .hero-container{
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+   } 
+
+   .orange-circle{
+    right: 28%;
+   }
+
+   .search-bar{
+    width: 100%;
+   }
+
+   .search-bar input{
+    width: 60%;
+   }
+}
