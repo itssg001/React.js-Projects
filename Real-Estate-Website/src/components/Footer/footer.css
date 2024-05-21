@@ -37,3 +37,19 @@
     width: 100%;
     gap: 0.5rem;
 }
+
+
+@media (max-width:768px){
+   
+.f-wrapper{
+    flex-direction: column;
+}
+
+.f-wrapper .f-container{
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: flex-start;
+}
+
+}
+
