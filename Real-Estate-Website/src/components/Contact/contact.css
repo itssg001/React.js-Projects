@@ -71,3 +71,26 @@ box-shadow: var(--shadow);
     color: white;
     scale: 0.8;
 }
+
+@media (max-width:768px){
+.c-wrapper{
+    width: 100%;
+}    
+.c-container{
+    flex-direction: column;
+}
+.c-left{
+    width: 100%;
+}
+.contactModes{
+    width: 100%;
+}
+.contactModes .row{
+    width: 100%;
+    flex-direction: column;
+}
+.mode{
+    width: 100%;
+}
+
+} 

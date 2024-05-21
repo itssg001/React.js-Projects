@@ -61,3 +61,17 @@
 .icon>svg{
     color: var(--blue);
 }
+
+@media (max-width:768px){
+
+    .v-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       flex-direction: column;
+    }
+
+    .v-container .image-container{
+        display: none;
+    }
+}
